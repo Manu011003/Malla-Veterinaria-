@@ -3,107 +3,35 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Malla Curricular - Horizontal</title>
+  <title>Malla Curricular - Completa</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Malla Curricular - Medicina Veterinaria (Horizontal, por ciclo)</h1>
+  <h1>Malla Curricular - Medicina Veterinaria (Con Electivas y Optativas)</h1>
   <div class="container">
-<div class="semester ciclo-1">
-<h2>Ciclo 01</h2>
-<div class="course" data-nombre="Actividad Estudiantil I" onclick="toggleCurso('Actividad Estudiantil I'); showInfo('Actividad Estudiantil I')">Actividad Estudiantil I</div>
-<div class="course" data-nombre="Biología General" onclick="toggleCurso('Biología General'); showInfo('Biología General')">Biología General</div>
-<div class="course" data-nombre="Comunicación y Lenguaje" onclick="toggleCurso('Comunicación y Lenguaje'); showInfo('Comunicación y Lenguaje')">Comunicación y Lenguaje</div>
-<div class="course" data-nombre="Filosofía" onclick="toggleCurso('Filosofía'); showInfo('Filosofía')">Filosofía</div>
-<div class="course" data-nombre="Historia de Nicaragua" onclick="toggleCurso('Historia de Nicaragua'); showInfo('Historia de Nicaragua')">Historia de Nicaragua</div>
-<div class="course" data-nombre="Inglés" onclick="toggleCurso('Inglés'); showInfo('Inglés')">Inglés</div>
-<div class="course" data-nombre="Matemática Básica" onclick="toggleCurso('Matemática Básica'); showInfo('Matemática Básica')">Matemática Básica</div>
-</div>
-<div class="semester ciclo-2">
-<h2>Ciclo 02</h2>
-<div class="course" data-nombre="Actividad Estudiantil II" onclick="toggleCurso('Actividad Estudiantil II'); showInfo('Actividad Estudiantil II')">Actividad Estudiantil II</div>
-<div class="course" data-nombre="Anatomía y Embriología Veterinaria I" onclick="toggleCurso('Anatomía y Embriología Veterinaria I'); showInfo('Anatomía y Embriología Veterinaria I')">Anatomía y Embriología Veterinaria I</div>
-<div class="course" data-nombre="Biofísica" onclick="toggleCurso('Biofísica'); showInfo('Biofísica')">Biofísica</div>
-<div class="course" data-nombre="Citología e Histología Veterinaria" onclick="toggleCurso('Citología e Histología Veterinaria'); showInfo('Citología e Histología Veterinaria')">Citología e Histología Veterinaria</div>
-<div class="course" data-nombre="Etología, Etnología e Identificación Animal" onclick="toggleCurso('Etología, Etnología e Identificación Animal'); showInfo('Etología, Etnología e Identificación Animal')">Etología, Etnología e Identificación Animal</div>
-<div class="course" data-nombre="Inglés Aplicado I" onclick="toggleCurso('Inglés Aplicado I'); showInfo('Inglés Aplicado I')">Inglés Aplicado I</div>
-<div class="course" data-nombre="Práctica Veterinaria I" onclick="toggleCurso('Práctica Veterinaria I'); showInfo('Práctica Veterinaria I')">Práctica Veterinaria I</div>
-<div class="course" data-nombre="Química Orgánica" onclick="toggleCurso('Química Orgánica'); showInfo('Química Orgánica')">Química Orgánica</div>
-</div>
-<div class="semester ciclo-3">
-<h2>Ciclo 03</h2>
-<div class="course" data-nombre="Actividad Estudiantil III" onclick="toggleCurso('Actividad Estudiantil III'); showInfo('Actividad Estudiantil III')">Actividad Estudiantil III</div>
-<div class="course" data-nombre="Anatomía y Embriología Veterinaria II" onclick="toggleCurso('Anatomía y Embriología Veterinaria II'); showInfo('Anatomía y Embriología Veterinaria II')">Anatomía y Embriología Veterinaria II</div>
-<div class="course" data-nombre="Bioquímica Veterinaria I" onclick="toggleCurso('Bioquímica Veterinaria I'); showInfo('Bioquímica Veterinaria I')">Bioquímica Veterinaria I</div>
-<div class="course" data-nombre="Histología Organográfica Veterinaria" onclick="toggleCurso('Histología Organográfica Veterinaria'); showInfo('Histología Organográfica Veterinaria')">Histología Organográfica Veterinaria</div>
-<div class="course" data-nombre="Inglés Aplicado II" onclick="toggleCurso('Inglés Aplicado II'); showInfo('Inglés Aplicado II')">Inglés Aplicado II</div>
-<div class="course" data-nombre="Microbiología Veterinaria I" onclick="toggleCurso('Microbiología Veterinaria I'); showInfo('Microbiología Veterinaria I')">Microbiología Veterinaria I</div>
-<div class="course" data-nombre="Práctica Veterinaria II" onclick="toggleCurso('Práctica Veterinaria II'); showInfo('Práctica Veterinaria II')">Práctica Veterinaria II</div>
-</div>
-<div class="semester ciclo-4">
-<h2>Ciclo 04</h2>
-<div class="course" data-nombre="Actividad Estudiantil IV" onclick="toggleCurso('Actividad Estudiantil IV'); showInfo('Actividad Estudiantil IV')">Actividad Estudiantil IV</div>
-<div class="course" data-nombre="Bioestadística" onclick="toggleCurso('Bioestadística'); showInfo('Bioestadística')">Bioestadística</div>
-<div class="course" data-nombre="Bioquímica Veterinaria II" onclick="toggleCurso('Bioquímica Veterinaria II'); showInfo('Bioquímica Veterinaria II')">Bioquímica Veterinaria II</div>
-<div class="course" data-nombre="Fisiología Veterinaria I" onclick="toggleCurso('Fisiología Veterinaria I'); showInfo('Fisiología Veterinaria I')">Fisiología Veterinaria I</div>
-<div class="course" data-nombre="Inglés Aplicado III" onclick="toggleCurso('Inglés Aplicado III'); showInfo('Inglés Aplicado III')">Inglés Aplicado III</div>
-<div class="course" data-nombre="Inmunología Veterinaria" onclick="toggleCurso('Inmunología Veterinaria'); showInfo('Inmunología Veterinaria')">Inmunología Veterinaria</div>
-<div class="course" data-nombre="Microbiología Veterinaria II" onclick="toggleCurso('Microbiología Veterinaria II'); showInfo('Microbiología Veterinaria II')">Microbiología Veterinaria II</div>
-<div class="course" data-nombre="Práctica Veterinaria III" onclick="toggleCurso('Práctica Veterinaria III'); showInfo('Práctica Veterinaria III')">Práctica Veterinaria III</div>
-</div>
-<div class="semester ciclo-5">
-<h2>Ciclo 05</h2>
-<div class="course" data-nombre="Agrostología" onclick="toggleCurso('Agrostología'); showInfo('Agrostología')">Agrostología</div>
-<div class="course" data-nombre="Epidemiología Veterinaria" onclick="toggleCurso('Epidemiología Veterinaria'); showInfo('Epidemiología Veterinaria')">Epidemiología Veterinaria</div>
-<div class="course" data-nombre="Fisiología Veterinaria II" onclick="toggleCurso('Fisiología Veterinaria II'); showInfo('Fisiología Veterinaria II')">Fisiología Veterinaria II</div>
-<div class="course" data-nombre="Genética" onclick="toggleCurso('Genética'); showInfo('Genética')">Genética</div>
-<div class="course" data-nombre="Práctica Veterinaria IV" onclick="toggleCurso('Práctica Veterinaria IV'); showInfo('Práctica Veterinaria IV')">Práctica Veterinaria IV</div>
-</div>
-<div class="semester ciclo-6">
-<h2>Ciclo 06</h2>
-<div class="course" data-nombre="Anatomía Patológica General" onclick="toggleCurso('Anatomía Patológica General'); showInfo('Anatomía Patológica General')">Anatomía Patológica General</div>
-<div class="course" data-nombre="Farmacología Veterinaria" onclick="toggleCurso('Farmacología Veterinaria'); showInfo('Farmacología Veterinaria')">Farmacología Veterinaria</div>
-<div class="course" data-nombre="Fisiopatología" onclick="toggleCurso('Fisiopatología'); showInfo('Fisiopatología')">Fisiopatología</div>
-<div class="course" data-nombre="Nutrición y Alimentación Animal" onclick="toggleCurso('Nutrición y Alimentación Animal'); showInfo('Nutrición y Alimentación Animal')">Nutrición y Alimentación Animal</div>
-<div class="course" data-nombre="Propedéutica y Biopatología Clínica" onclick="toggleCurso('Propedéutica y Biopatología Clínica'); showInfo('Propedéutica y Biopatología Clínica')">Propedéutica y Biopatología Clínica</div>
-</div>
-<div class="semester ciclo-7">
-<h2>Ciclo 07</h2>
-<div class="course" data-nombre="Anatomía Patológica Especial" onclick="toggleCurso('Anatomía Patológica Especial'); showInfo('Anatomía Patológica Especial')">Anatomía Patológica Especial</div>
-<div class="course" data-nombre="Farmacología Veterinaria y Toxicología" onclick="toggleCurso('Farmacología Veterinaria y Toxicología'); showInfo('Farmacología Veterinaria y Toxicología')">Farmacología Veterinaria y Toxicología</div>
-<div class="course" data-nombre="Medicina Interna I" onclick="toggleCurso('Medicina Interna I'); showInfo('Medicina Interna I')">Medicina Interna I</div>
-<div class="course" data-nombre="Parasitología Veterinaria I" onclick="toggleCurso('Parasitología Veterinaria I'); showInfo('Parasitología Veterinaria I')">Parasitología Veterinaria I</div>
-</div>
-<div class="semester ciclo-8">
-<h2>Ciclo 08</h2>
-<div class="course" data-nombre="Medicina Interna II" onclick="toggleCurso('Medicina Interna II'); showInfo('Medicina Interna II')">Medicina Interna II</div>
-<div class="course" data-nombre="Metodología de la Investigación I" onclick="toggleCurso('Metodología de la Investigación I'); showInfo('Metodología de la Investigación I')">Metodología de la Investigación I</div>
-<div class="course" data-nombre="Parasitología Veterinaria II" onclick="toggleCurso('Parasitología Veterinaria II'); showInfo('Parasitología Veterinaria II')">Parasitología Veterinaria II</div>
-<div class="course" data-nombre="Patología Infecciosa I" onclick="toggleCurso('Patología Infecciosa I'); showInfo('Patología Infecciosa I')">Patología Infecciosa I</div>
-<div class="course" data-nombre="Producción Animal I" onclick="toggleCurso('Producción Animal I'); showInfo('Producción Animal I')">Producción Animal I</div>
-</div>
-<div class="semester ciclo-9">
-<h2>Ciclo 09</h2>
-<div class="course" data-nombre="Metodología de la Investigación II" onclick="toggleCurso('Metodología de la Investigación II'); showInfo('Metodología de la Investigación II')">Metodología de la Investigación II</div>
-<div class="course" data-nombre="Patología Infecciosa II" onclick="toggleCurso('Patología Infecciosa II'); showInfo('Patología Infecciosa II')">Patología Infecciosa II</div>
-<div class="course" data-nombre="Patología Quirúrgica I" onclick="toggleCurso('Patología Quirúrgica I'); showInfo('Patología Quirúrgica I')">Patología Quirúrgica I</div>
-<div class="course" data-nombre="Producción Animal II" onclick="toggleCurso('Producción Animal II'); showInfo('Producción Animal II')">Producción Animal II</div>
-<div class="course" data-nombre="Reproducción" onclick="toggleCurso('Reproducción'); showInfo('Reproducción')">Reproducción</div>
-</div>
-<div class="semester ciclo-10">
-<h2>Ciclo 10</h2>
-<div class="course" data-nombre="Higiene e Inspección de Alimentos" onclick="toggleCurso('Higiene e Inspección de Alimentos'); showInfo('Higiene e Inspección de Alimentos')">Higiene e Inspección de Alimentos</div>
-<div class="course" data-nombre="Metodología de la Investigación III" onclick="toggleCurso('Metodología de la Investigación III'); showInfo('Metodología de la Investigación III')">Metodología de la Investigación III</div>
-<div class="course" data-nombre="Patología Quirúrgica II" onclick="toggleCurso('Patología Quirúrgica II'); showInfo('Patología Quirúrgica II')">Patología Quirúrgica II</div>
-<div class="course" data-nombre="Reproducción y Obstetricia" onclick="toggleCurso('Reproducción y Obstetricia'); showInfo('Reproducción y Obstetricia')">Reproducción y Obstetricia</div>
-<div class="course" data-nombre="Salud Pública Veterinaria" onclick="toggleCurso('Salud Pública Veterinaria'); showInfo('Salud Pública Veterinaria')">Salud Pública Veterinaria</div>
-</div>
-<div class="semester ciclo-11">
-<h2>Ciclo 11</h2>
-<div class="course" data-nombre="Prácticas Profesionales I" onclick="toggleCurso('Prácticas Profesionales I'); showInfo('Prácticas Profesionales I')">Prácticas Profesionales I</div>
-<div class="course" data-nombre="Prácticas Profesionales II" onclick="toggleCurso('Prácticas Profesionales II'); showInfo('Prácticas Profesionales II')">Prácticas Profesionales II</div>
-</div>
-
+    <div class="semester ciclo-2">
+      <h2>Ciclo 02</h2>
+      <div class="course" data-nombre="Electiva I: Base de Datos en Línea" onclick="toggleCurso('Electiva I: Base de Datos en Línea'); showInfo('Electiva I: Base de Datos en Línea')">Electiva I: Base de Datos en Línea</div>
+      <div class="course" data-nombre="Electiva I: Bienestar Animal" onclick="toggleCurso('Electiva I: Bienestar Animal'); showInfo('Electiva I: Bienestar Animal')">Electiva I: Bienestar Animal</div>
+      <div class="course" data-nombre="Electiva I: Enfermería Veterinaria" onclick="toggleCurso('Electiva I: Enfermería Veterinaria'); showInfo('Electiva I: Enfermería Veterinaria')">Electiva I: Enfermería Veterinaria</div>
+    </div>
+    <div class="semester ciclo-3">
+      <h2>Ciclo 03</h2>
+      <div class="course" data-nombre="Electiva II: Deontología Veterinaria" onclick="toggleCurso('Electiva II: Deontología Veterinaria'); showInfo('Electiva II: Deontología Veterinaria')">Electiva II: Deontología Veterinaria</div>
+      <div class="course" data-nombre="Electiva II: Herramientas en Línea" onclick="toggleCurso('Electiva II: Herramientas en Línea'); showInfo('Electiva II: Herramientas en Línea')">Electiva II: Herramientas en Línea</div>
+      <div class="course" data-nombre="Electiva II: Manejo de Instalaciones Pecuarias" onclick="toggleCurso('Electiva II: Manejo de Instalaciones Pecuarias'); showInfo('Electiva II: Manejo de Instalaciones Pecuarias')">Electiva II: Manejo de Instalaciones Pecuarias</div>
+    </div>
+    <div class="semester ciclo-5">
+      <h2>Ciclo 05</h2>
+      <div class="course" data-nombre="Electiva III: Etología Clínica" onclick="toggleCurso('Electiva III: Etología Clínica'); showInfo('Electiva III: Etología Clínica')">Electiva III: Etología Clínica</div>
+      <div class="course" data-nombre="Electiva III: Mercadotecnia para Veterinarios" onclick="toggleCurso('Electiva III: Mercadotecnia para Veterinarios'); showInfo('Electiva III: Mercadotecnia para Veterinarios')">Electiva III: Mercadotecnia para Veterinarios</div>
+      <div class="course" data-nombre="Electiva III: Mitigación de Riesgo ante Desastres" onclick="toggleCurso('Electiva III: Mitigación de Riesgo ante Desastres'); showInfo('Electiva III: Mitigación de Riesgo ante Desastres')">Electiva III: Mitigación de Riesgo ante Desastres</div>
+      <div class="course" data-nombre="Optativa I" onclick="toggleCurso('Optativa I'); showInfo('Optativa I')">Optativa I</div>
+    </div>
+    <div class="semester ciclo-10">
+      <h2>Ciclo 10</h2>
+      <div class="course" data-nombre="Optativa II" onclick="toggleCurso('Optativa II'); showInfo('Optativa II')">Optativa II</div>
+    </div>
   </div>
   <div id="infoBox" class="hidden">
     <p id="courseInfo"></p>

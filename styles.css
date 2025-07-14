@@ -67,19 +67,6 @@ h1 {
   display: none;
 }
 
-/* Colores por ciclo */
-.ciclo-1 { background-color: #1abc9c; }
-.ciclo-2 { background-color: #3498db; }
-.ciclo-3 { background-color: #9b59b6; }
-.ciclo-4 { background-color: #f39c12; }
-.ciclo-5 { background-color: #e74c3c; }
-.ciclo-6 { background-color: #2ecc71; }
-.ciclo-7 { background-color: #e67e22; }
-.ciclo-8 { background-color: #8e44ad; }
-.ciclo-9 { background-color: #16a085; }
-.ciclo-10 { background-color: #34495e; }
-.ciclo-11 { background-color: #c0392b; }
-
 .semester h2 {
   font-size: 16px;
   margin-bottom: 10px;
