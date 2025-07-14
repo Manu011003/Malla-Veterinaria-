@@ -2,24 +2,34 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #121212;
+  color: white;
 }
 
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 
 .semester {
-  margin: 30px 0;
+  min-width: 250px;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 .course {
   padding: 10px;
-  margin: 5px;
+  margin: 5px 0;
   border-radius: 5px;
   cursor: pointer;
-  width: fit-content;
   border: 1px solid #ccc;
 }
 
@@ -30,28 +40,49 @@ h1 {
 }
 
 .bloqueada {
-  background-color: #bdc3c7;
-  color: #7f8c8d;
+  background-color: #7f8c8d;
+  color: #ccc;
   pointer-events: none;
 }
 
 .disponible {
-  background-color: #3498db;
+  background-color: #2980b9;
   color: white;
 }
 
 .course:hover {
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 #infoBox {
   margin-top: 30px;
   padding: 15px;
-  border: 1px solid #ccc;
-  background-color: #ecf0f1;
+  border: 1px solid #999;
+  background-color: #1f1f1f;
   border-radius: 5px;
+  color: #eee;
 }
 
 .hidden {
   display: none;
+}
+
+/* Colores por ciclo */
+.ciclo-1 { background-color: #1abc9c; }
+.ciclo-2 { background-color: #3498db; }
+.ciclo-3 { background-color: #9b59b6; }
+.ciclo-4 { background-color: #f39c12; }
+.ciclo-5 { background-color: #e74c3c; }
+.ciclo-6 { background-color: #2ecc71; }
+.ciclo-7 { background-color: #e67e22; }
+.ciclo-8 { background-color: #8e44ad; }
+.ciclo-9 { background-color: #16a085; }
+.ciclo-10 { background-color: #34495e; }
+.ciclo-11 { background-color: #c0392b; }
+
+.semester h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
 }
