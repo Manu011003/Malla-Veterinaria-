@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.semester {
+  margin: 30px 0;
+}
+
+.course {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.course:hover {
+  background-color: #2980b9;
+}
+
+#infoBox {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
